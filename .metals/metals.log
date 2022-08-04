@@ -1427,3 +1427,5 @@ java.nio.channels.ClosedChannelException
 2022.08.04 17:01:25 INFO  time: code lens generation in 3.26s
 2022.08.04 17:01:25 INFO  time: code lens generation in 3.26s
 2022.08.04 17:01:25 INFO  time: code lens generation in 7.94s
+août 04, 2022 5:01:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
