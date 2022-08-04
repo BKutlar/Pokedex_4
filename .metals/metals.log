@@ -1,0 +1,1418 @@
+2022.08.02 11:12:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\RDIUP\Downloads\Pokedex_4\.metals\lsp.trace.json or C:\Users\RDIUP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.02 11:12:49 INFO  logging to file C:\Users\RDIUP\Downloads\Pokedex_4\.metals\metals.log
+2022.08.02 11:12:49 INFO  Started: Metals version 0.11.7+68-57b05f3f-SNAPSHOT in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4' for client Visual Studio Code 1.69.2.
+2022.08.02 11:12:50 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.02 11:12:51 INFO  time: initialize in 2.13s
+2022.08.02 11:12:53 WARN  Build server is not auto-connectable.
+2022.08.02 11:12:53 WARN  no build tool detected in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.02 11:12:53 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.02 11:12:58 INFO  no build target found for C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.02 11:13:01 INFO  time: code lens generation in 6.87s
+2022.08.02 11:13:01 INFO  time: code lens generation in 6.87s
+2022.08.02 11:13:05 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\Main.scala
+août 02, 2022 11:13:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 3413 out of bounds for length 3413
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 3413 out of bounds for length 3413
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3413 out of bounds for length 3413
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+août 02, 2022 11:13:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 3413 out of bounds for length 3413
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 3413 out of bounds for length 3413
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3413 out of bounds for length 3413
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.02 11:13:33 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\Main.scala
+2022.08.03 13:23:46 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\Main.scala
+août 03, 2022 1:28:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1435 out of bounds for length 1435
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1435 out of bounds for length 1435
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1435 out of bounds for length 1435
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+août 03, 2022 1:28:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+août 03, 2022 1:29:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+août 03, 2022 1:29:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+août 03, 2022 1:29:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+août 03, 2022 1:29:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1438 out of bounds for length 1438
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.08.03 13:33:36 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokemon.scala
+2022.08.03 13:33:44 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokemon.scala
+2022.08.03 13:33:46 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokemon.scala
+2022.08.03 13:33:57 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\Main.scala
+2022.08.03 13:34:10 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 13:37:23 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 13:37:57 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 13:38:12 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 13:38:37 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 13:38:42 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+août 03, 2022 1:40:29 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Predef.nn().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Predef.nn().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:196)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 1:40:32 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Predef.nn().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Predef.nn().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:196)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 13:40:44 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 13:44:38 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 13:45:01 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 13:45:25 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 1:45:48 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/collection/IterableOnceOps#mkString(+2).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/collection/IterableOnceOps#mkString(+2).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+août 03, 2022 1:46:25 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Array#
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Array#
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+2022.08.03 13:46:28 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+août 03, 2022 1:46:36 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: null
+java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.FileChannelImpl.ensureOpen(FileChannelImpl.java:159)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:814)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1241)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1236)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.initDataPos(ZipFileSystem.java:2417)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.read(ZipFileSystem.java:2359)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$2.fill(ZipFileSystem.java:2309)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:409)
+	at java.base/java.io.InputStream.readAllBytes(InputStream.java:346)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.newByteChannel(ZipFileSystem.java:977)
+	at jdk.zipfs/jdk.nio.zipfs.ZipPath.newByteChannel(ZipPath.java:864)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newByteChannel(ZipFileSystemProvider.java:238)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.DestinationProvider.bestTextDocument(DefinitionProvider.scala:319)
+	at scala.meta.internal.metals.DestinationProvider.$anonfun$fromSymbol$3(DefinitionProvider.scala:392)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:391)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:413)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.definition(StandaloneSymbolSearch.scala:76)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions$$anonfun$1(PcDefinitionProvider.scala:84)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:84)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+
+août 03, 2022 1:46:46 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/collection/SeqFactory#unapplySeq().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/collection/SeqFactory#unapplySeq().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:102)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+août 03, 2022 1:47:01 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Unit#
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Unit#
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+août 03, 2022 1:47:06 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Unit#
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Unit#
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+2022.08.03 13:47:10 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 13:47:11 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 13:47:23 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 13:47:49 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 1:52:48 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/throws.apply(+1).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/throws.apply(+1).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 13:52:50 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 13:53:13 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 1:54:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1121
+août 03, 2022 1:54:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1124
+2022.08.03 13:54:01 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 13:54:17 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 1:54:57 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/collection/IterableOnceOps#mkString(+2).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/collection/IterableOnceOps#mkString(+2).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+août 03, 2022 1:54:57 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/collection/IterableOnceOps#mkString(+2).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/collection/IterableOnceOps#mkString(+2).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+2022.08.03 13:55:00 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 1:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1171
+2022.08.03 13:57:47 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 2:00:33 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Predef.nn().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Predef.nn().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:196)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 14:00:34 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 14:03:00 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 14:03:08 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 14:03:44 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 14:15:48 INFO  shutting down Metals
+2022.08.03 14:46:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\RDIUP\Downloads\Pokedex_4\.metals\lsp.trace.json or C:\Users\RDIUP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.03 14:46:42 INFO  logging to file C:\Users\RDIUP\Downloads\Pokedex_4\.metals\metals.log
+2022.08.03 14:46:42 INFO  Started: Metals version 0.11.7+68-57b05f3f-SNAPSHOT in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4' for client Visual Studio Code 1.69.2.
+2022.08.03 14:46:44 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.03 14:46:45 INFO  time: initialize in 2.71s
+2022.08.03 14:46:48 WARN  Build server is not auto-connectable.
+2022.08.03 14:46:48 WARN  no build tool detected in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.03 14:46:48 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 14:46:48 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 14:46:48 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokemon.scala
+2022.08.03 14:46:53 INFO  no build target found for C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.03 14:46:57 INFO  time: code lens generation in 8.26s
+2022.08.03 14:46:57 INFO  time: code lens generation in 8.26s
+2022.08.03 14:48:35 INFO  shutting down Metals
+2022.08.03 14:50:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\RDIUP\Downloads\Pokedex_4\.metals\lsp.trace.json or C:\Users\RDIUP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.03 14:50:55 INFO  logging to file C:\Users\RDIUP\Downloads\Pokedex_4\.metals\metals.log
+2022.08.03 14:50:55 INFO  Started: Metals version 0.11.7+68-57b05f3f-SNAPSHOT in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4' for client Visual Studio Code 1.69.2.
+2022.08.03 14:50:57 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.03 14:50:58 INFO  time: initialize in 2.99s
+2022.08.03 14:51:02 WARN  Build server is not auto-connectable.
+2022.08.03 14:51:02 WARN  no build tool detected in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.03 14:51:02 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 14:51:08 INFO  no build target found for C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.03 14:51:13 INFO  time: code lens generation in 9.35s
+2022.08.03 14:51:13 INFO  time: code lens generation in 9.36s
+2022.08.03 15:02:40 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:03:50 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:04:38 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokemon.scala
+2022.08.03 15:04:46 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:06:40 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:07:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 74
+août 03, 2022 3:11:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 379
+août 03, 2022 3:11:35 PM scala.meta.internal.metals.Docstrings indexSymbol
+GRAVE: jar:file:///C:/Users/RDIUP/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/collection/Iterator.scala
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.FileChannelImpl.endBlocking(FileChannelImpl.java:171)
+	at java.base/sun.nio.ch.FileChannelImpl.readInternal(FileChannelImpl.java:844)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:821)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1241)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1236)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.initDataPos(ZipFileSystem.java:2417)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.read(ZipFileSystem.java:2359)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$2.fill(ZipFileSystem.java:2309)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:409)
+	at java.base/java.io.InputStream.readAllBytes(InputStream.java:346)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.newByteChannel(ZipFileSystem.java:977)
+	at jdk.zipfs/jdk.nio.zipfs.ZipPath.newByteChannel(ZipPath.java:864)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newByteChannel(ZipFileSystemProvider.java:238)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:123)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:107)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Workspace.description(CompletionValue.scala:83)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:105)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:138)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:88)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+août 03, 2022 3:11:35 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/collection/Searching.SearchImpl.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/collection/Searching.SearchImpl.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Workspace.description(CompletionValue.scala:83)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 15:11:56 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:12:38 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:12:47 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/package.Exception#
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/package.Exception#
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+août 03, 2022 3:12:48 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/package.Exception#
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/package.Exception#
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+août 03, 2022 3:12:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 539
+2022.08.03 15:12:50 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:13:20 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:13:26 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:13:52 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:14:31 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/throws.apply(+1).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/throws.apply(+1).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 15:14:31 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:14:44 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/throws.apply(+1).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/throws.apply(+1).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 15:14:55 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:15:08 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:16:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 687
+2022.08.03 15:16:35 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:16:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 748
+2022.08.03 15:16:55 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:17:00 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:17:10 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Array#
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Array#
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+2022.08.03 15:17:11 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:17:13 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:17:18 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:18:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 887
+août 03, 2022 3:18:42 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/deprecated.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/deprecated.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 15:18:59 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:19:54 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/deprecated.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/deprecated.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:20:03 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/UninitializedFieldError.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/UninitializedFieldError.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:20:06 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/UninitializedFieldError.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/UninitializedFieldError.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:21:25 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Array.apply(+1).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Array.apply(+1).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:21:26 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/Codec.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/Codec.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:21:29 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/Predef.nn().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/Predef.nn().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:196)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:21:34 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/BufferedSource#addString().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/BufferedSource#addString().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:21:36 PM scala.meta.internal.metals.Docstrings indexSymbol
+GRAVE: jar:file:///C:/Users/RDIUP/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar!/scala/collection/Iterator.scala
+java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.FileChannelImpl.ensureOpen(FileChannelImpl.java:159)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:814)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1241)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1236)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.initDataPos(ZipFileSystem.java:2417)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.read(ZipFileSystem.java:2359)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$2.fill(ZipFileSystem.java:2309)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:409)
+	at java.base/java.io.InputStream.readAllBytes(InputStream.java:346)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.newByteChannel(ZipFileSystem.java:977)
+	at jdk.zipfs/jdk.nio.zipfs.ZipPath.newByteChannel(ZipPath.java:864)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newByteChannel(ZipFileSystemProvider.java:238)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:123)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:107)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:105)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:138)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:88)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+août 03, 2022 3:21:36 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/collection/IterableOnceOps#max().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/collection/IterableOnceOps#max().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 15:21:45 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:29:02 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/collection/IterableOnceOps#mkString(+2).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/collection/IterableOnceOps#mkString(+2).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:103)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:103)
+
+2022.08.03 15:29:15 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:31:00 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:31:02 INFO  shutting down Metals
+2022.08.03 15:32:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\RDIUP\Downloads\Pokedex_4\.metals\lsp.trace.json or C:\Users\RDIUP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.03 15:32:52 INFO  logging to file C:\Users\RDIUP\Downloads\Pokedex_4\.metals\metals.log
+2022.08.03 15:32:52 INFO  Started: Metals version 0.11.7+68-57b05f3f-SNAPSHOT in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4' for client Visual Studio Code 1.69.2.
+2022.08.03 15:32:53 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.03 15:32:54 INFO  time: initialize in 2.72s
+2022.08.03 15:32:58 WARN  Build server is not auto-connectable.
+2022.08.03 15:32:58 WARN  no build tool detected in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.03 15:32:58 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:33:04 INFO  no build target found for C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.03 15:33:09 INFO  time: code lens generation in 9.9s
+2022.08.03 15:33:09 INFO  time: code lens generation in 9.9s
+2022.08.03 15:37:07 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:38:35 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:40:15 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:42:10 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:47:12 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/deprecated.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/deprecated.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:47:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 220
+août 03, 2022 3:48:05 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/IArray$package.IArray.apply(+11).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/IArray$package.IArray.apply(+11).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:48:06 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/Codec.apply().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/Codec.apply().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:48:08 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/Source.createBufferedSource().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/Source.createBufferedSource().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:48:10 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/Source.fromURI().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/Source.fromURI().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:48:12 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/Source.fromURL().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/Source.fromURL().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+août 03, 2022 3:48:13 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/Source.fromURL(+3).
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/Source.fromURL(+3).
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$2(SignatureHelpProvider.scala:59)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:68)
+
+2022.08.03 15:48:23 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:48:44 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: scala/io/BufferedSource#addString().
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: scala/io/BufferedSource#addString().
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.documentation(StandaloneSymbolSearch.scala:66)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:169)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$lzyINIT1$1(MetalsPrinter.scala:162)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramsDocs$1(MetalsPrinter.scala:166)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$4(MetalsPrinter.scala:183)
+	at scala.meta.internal.pc.printer.MetalsPrinter.paramLabel(MetalsPrinter.scala:332)
+	at scala.meta.internal.pc.printer.MetalsPrinter.$anonfun$3(MetalsPrinter.scala:184)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1$$anonfun$1(MetalsPrinter.scala:187)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.printer.MetalsPrinter.label$1(MetalsPrinter.scala:192)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:195)
+	at scala.meta.internal.pc.printer.MetalsPrinter.completionSymbol(MetalsPrinter.scala:123)
+	at scala.meta.internal.pc.completions.CompletionValue.description(CompletionValue.scala:59)
+	at scala.meta.internal.pc.completions.CompletionValue.description$(CompletionValue.scala:20)
+	at scala.meta.internal.pc.completions.CompletionValue$Compiler.description(CompletionValue.scala:77)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:171)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:88)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:89)
+
+2022.08.03 15:48:46 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:50:49 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:52:18 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 15:52:21 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokemon.scala
+2022.08.03 15:52:23 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Main.scala
+2022.08.03 15:52:38 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:57:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 653
+2022.08.03 15:58:16 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+août 03, 2022 3:58:16 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: null
+java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.FileChannelImpl.ensureOpen(FileChannelImpl.java:159)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:814)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1241)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.readFullyAt(ZipFileSystem.java:1236)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.initDataPos(ZipFileSystem.java:2417)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$EntryInputStream.read(ZipFileSystem.java:2359)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem$2.fill(ZipFileSystem.java:2309)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base/java.io.InputStream.readNBytes(InputStream.java:409)
+	at java.base/java.io.InputStream.readAllBytes(InputStream.java:346)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.newByteChannel(ZipFileSystem.java:977)
+	at jdk.zipfs/jdk.nio.zipfs.ZipPath.newByteChannel(ZipPath.java:864)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newByteChannel(ZipFileSystemProvider.java:238)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.metals.DestinationProvider.bestTextDocument(DefinitionProvider.scala:319)
+	at scala.meta.internal.metals.DestinationProvider.$anonfun$fromSymbol$3(DefinitionProvider.scala:392)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:391)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:413)
+	at scala.meta.internal.metals.StandaloneSymbolSearch.definition(StandaloneSymbolSearch.scala:76)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions$$anonfun$1(PcDefinitionProvider.scala:84)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:84)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+
+2022.08.03 16:02:11 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 16:02:40 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.03 16:07:47 INFO  shutting down Metals
+2022.08.04 16:48:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\RDIUP\Downloads\Pokedex_4\.metals\lsp.trace.json or C:\Users\RDIUP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.04 16:48:39 INFO  logging to file C:\Users\RDIUP\Downloads\Pokedex_4\.metals\metals.log
+2022.08.04 16:48:39 INFO  Started: Metals version 0.11.7+68-57b05f3f-SNAPSHOT in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4' for client Visual Studio Code 1.69.2.
+2022.08.04 16:48:41 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.04 16:48:42 INFO  time: initialize in 2.96s
+2022.08.04 16:48:46 WARN  Build server is not auto-connectable.
+2022.08.04 16:48:46 WARN  no build tool detected in workspace 'C:\Users\RDIUP\Downloads\Pokedex_4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.08.04 16:48:46 WARN  no build target for: C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala
+2022.08.04 16:48:52 INFO  no build target found for C:\Users\RDIUP\Downloads\Pokedex_4\Pokedex 4\src\main\scala\com\pokemon\Pokedex.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.04 16:48:58 INFO  time: code lens generation in 10s
+2022.08.04 16:48:58 INFO  time: code lens generation in 10s
+2022.08.04 16:50:55 INFO  shutting down Metals
+2022.08.04 17:01:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\RDIUP\Downloads\Pokedex_4\.metals\lsp.trace.json or C:\Users\RDIUP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.08.04 17:01:11 INFO  logging to file C:\Users\RDIUP\Downloads\Pokedex_4\.metals\metals.log
